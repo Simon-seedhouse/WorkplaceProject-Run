@@ -1,0 +1,111 @@
+html,body{
+	font-family: 'Pacifico', cursive;
+	margin: 0;
+	width: 100%;
+	background-color: #EFEFEF;
+}
+#Container{
+	width: 100%;
+	width: 100%;
+}
+#TopAngle{
+	width: 500px;
+	height: 200px;
+	transform: rotate(-25deg);
+	background-color: #ff3b3f;
+	position: absolute;
+	left: -100px;
+	top: -100px;
+	background: linear-gradient(to right, #1d9797 , #0e4b4b);
+	opacity: 0.8;
+	z-index: 0;
+}
+#LeftAngle{
+	width: 550px;
+	height: 200px;
+	transform: rotate(70deg);
+	position: absolute;
+	left: -250px;
+	top: 175px;
+	background: linear-gradient(to right, #1d9797 , #0e4b4b);
+}
+#Title{
+	font-size: 80px;
+	text-align: center;
+	width:50%;
+	margin: auto;
+	margin-top: 50px;
+	color: #293542;
+}
+#Introduction{
+	text-align: center;
+	margin: auto;
+	margin-top: 50px;
+	position: relative;
+	z-index: 2;
+}
+#IntroTitle{
+	font-size: 40px;
+	width: 30%;
+	margin: auto;
+	color: #293542;
+	border-color: #293542;
+	border-style: solid;
+	border-width: 0px 0px 2px 0px;
+	position: relative;
+	z-index: 2;
+}
+#IntroText{
+	font-size: 20px;
+	width: 50%;
+	margin: auto;
+	margin-top: 20px;
+	color: #293542;
+	position: relative;
+	z-index: 2;
+}
+#Picture{
+	width: 100%;
+	height: 500px;
+	margin: auto;
+	margin-top: 20px;
+	border-style: solid;
+	border-width: 2px 0px 2px 0px;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	position: relative;
+	z-index: 2;
+}
+#BottomAngle{
+	position: absolute;
+	top: 700px;
+	left: -200px;
+	background: linear-gradient(to right, #1d9797 , #0e4b4b);
+	transform: rotate(-45deg);
+	z-index: 1;
+}
+#Download{
+	width: 500px;
+	height: 200px;
+	margin: auto;
+	margin-top: 50px;
+	position: relative;
+	z-index: 0;
+}
+#DownloadTitle{
+	font-size: 40px;
+	text-align: centre;
+	width: 250px;
+	float: left;
+	border-style: solid;
+	border-width: 0px 2px 0px 0px;
+	color: #293542;
+}
+
+#WindowsDownload{
+	text-align: centre;
+	float: right;
+	color: #293542;
+}
