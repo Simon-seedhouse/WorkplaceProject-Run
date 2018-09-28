@@ -1,5 +1,6 @@
 
 document.getElementById("WindowsButton").onclick = login();
+document.getElementById("LoginButton").onclick = login();
 function login()
 {
 	autoLogIn("user13@test.com", "password");

@@ -5,7 +5,24 @@
 		<link rel="stylesheet" href="Main.css">
 		<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 		<script>
-		
+			var Form = document.getElementById("login-form");
+			var Email = document.getElementById("EmailInput");
+			var Password = document.getElementById("PasswordInput");
+			
+			Form.method = "POST";
+			Form.action = "http://axfonath.000webhostapp.com/action_loginwebpage.php";
+			
+			Email.value = un;
+			Email.name = "email";
+			
+			Password.value = pw;
+			Password.name = "password";
+			
+			function Login(){
+				Form.submit();
+			}
+			
+			
 		</script>
 	</head>
 	<body>
@@ -17,9 +34,9 @@
 			<div id="RightAngle">
 			</div>
 			<form id="login-form">
-				<input type="text" placeholder="username" id="UserNameInput"/>
+				<input type="text" placeholder="Email" id="EmailInput"/>
 				<input type="password" placeholder="password" id="PasswordInput"/>
-				<button id="LoginButton">login</button>
+				<button id="LoginButton" onclick="Login();">login</button>
 			</form>
 			<div id="Title">
 			Project Clout
