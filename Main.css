@@ -7,6 +7,8 @@ html,body{
 #Container{
 	width: 100%;
 	width: 100%;
+	position: absolute;
+	overflow: hidden;
 }
 #TopAngle{
 	width: 500px;
@@ -28,6 +30,27 @@ html,body{
 	left: -250px;
 	top: 175px;
 	background: linear-gradient(to right, #1d9797 , #0e4b4b);
+}
+#RightAngle{
+	width: 500px;
+	height: 200px;
+	transform: rotate(-45deg);
+	position: absolute;
+	right:-250px;
+	top: 300px;
+	background: linear-gradient(to right, #1d9797 , #0e4b4b);
+	opacity: 0.9;
+}
+#login-form{
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	width: 165px;
+	height: 100px;
+}
+#LoginButton{
+	float: right;
+	margin-top: 10px;
 }
 #Title{
 	font-size: 80px;
@@ -78,20 +101,12 @@ html,body{
 	position: relative;
 	z-index: 2;
 }
-#BottomAngle{
-	position: absolute;
-	top: 700px;
-	left: -200px;
-	background: linear-gradient(to right, #1d9797 , #0e4b4b);
-	transform: rotate(-45deg);
-	z-index: 1;
-}
 #Download{
-	width: 500px;
+	width: 400px;
 	height: 200px;
 	margin: auto;
 	margin-top: 50px;
-	position: relative;
+	overflow: auto;
 	z-index: 0;
 }
 #DownloadTitle{
@@ -103,7 +118,15 @@ html,body{
 	border-width: 0px 2px 0px 0px;
 	color: #293542;
 }
-
+#buttomAngle{
+	width: 500px;
+	height: 200px;
+	transform: rotate(60deg);
+	position: absolute;
+	top: 900px;
+	right: -230px;
+	background: linear-gradient(to right, #1d9797 , #0e4b4b);
+}
 #WindowsDownload{
 	text-align: centre;
 	float: right;
